@@ -6,6 +6,8 @@ public class SoundBank : MonoBehaviour
 {
     public static SoundBank SoundBankInstance { get; private set; }
     public AudioClip stepAudio;
+    public AudioClip[] idleSounds;
+
     
     private void Awake()
     {
